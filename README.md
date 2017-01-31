@@ -13,4 +13,4 @@ Le seul usager dans la BD, c'est Paul avec 123456 comme mot de passe.
 
 ## PostMan ##
 
-Essayer les tests postman avec le mode 'preview' pour voir la reponse du body retourné.
+Essayer les tests postman. Pour voir la reponse du body retourné, activé le mode 'preview'.
