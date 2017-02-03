@@ -1,0 +1,93 @@
+{
+	"variables": [],
+	"info": {
+		"name": "NameBindingREST",
+		"_postman_id": "db14e7b9-4947-059e-bca4-a6a924dfd746",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login Paul",
+			"request": {
+				"url": "http://localhost:8080/login/Paul/123456",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"idTransaction\": \"1234\",\r\n\t\"nom\": \"test1\",\r\n\t\"prenom\": \"test\",\r\n\t\"sexe\": \"F\",\r\n\t\"dateNaissance\": \"1949-10-05\",\r\n\t\"nomMere\": \"nom\",\r\n\t\"prenomMere\": \"prenom\",\r\n\t\"nbrEnregistrement\": 1,\r\n\t\"numDossierIpo\": \"IPO12345678\",\r\n\t\"dateDebutEvaluation\": \"1900-01-01\",\r\n\t\"dateFinEvaluation\": \"2999-01-01\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Account Paul",
+			"request": {
+				"url": "http://localhost:8080/account",
+				"method": "GET",
+				"header": [
+					{
+						"key": "username",
+						"value": "Paul",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Logout Paul",
+			"request": {
+				"url": "http://localhost:8080/logout",
+				"method": "GET",
+				"header": [
+					{
+						"key": "username",
+						"value": "Paul",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Role Paul",
+			"request": {
+				"url": "http://localhost:8080/role/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "username",
+						"value": "Paul",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Client Paul",
+			"request": {
+				"url": "http://localhost:8080/client",
+				"method": "GET",
+				"header": [
+					{
+						"key": "username",
+						"value": "Paul",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
